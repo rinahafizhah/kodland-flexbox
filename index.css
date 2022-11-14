@@ -1,0 +1,87 @@
+.header {
+  height: 80px;
+}
+
+.container {
+  height: 80px;
+  background-color: #FFBF69;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container h1 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5rem;
+  color: #060606;
+  margin-left: 15px;
+
+}
+
+.page-link {
+  display: flex;
+  justify-content: flex-end;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.3rem;
+  color: #060606;
+  list-style-type: none;
+}
+
+.page-link ul {
+  list-style-type: none;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.page-link ul li {
+  margin-right: 15px;
+}
+
+.banner {
+  padding-top: 20px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding-bottom: 25px;
+  background-image: url("./assets/background.png");
+  height: 750px;
+  width: 100%;
+}
+
+.page-title{
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 8rem;
+}
+
+.page-title h1{
+  font-size: 5rem;
+  color: #fff;
+  font-weight: 900;
+}
+
+.page-title p{
+  font-size: 1rem;
+  color: #fff;
+  line-height: 0.9rem;
+  margin-top: 1.2rem;
+  font-weight: 500;
+}
+
+.page-title br{
+  margin-bottom: 0.2rem;
+}
+
+.page-title button {
+  background-color: #B9DFE2;
+  color: #060606;
+  border: none;
+  font-size: 0.9rem;
+  padding: 0.7rem 1.1rem;
+  border-radius: 0.4rem;
+  margin-top: 1rem;
+}
