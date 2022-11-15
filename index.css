@@ -1,3 +1,9 @@
+.main{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
 .header {
   height: 80px;
 }
@@ -14,7 +20,6 @@
   font-size: 1.5rem;
   color: #060606;
   margin-left: 15px;
-
 }
 
 .page-link {
@@ -49,7 +54,7 @@ a {
   background-repeat: no-repeat;
   padding-bottom: 25px;
   background-image: url("./assets/background.png");
-  height: 750px;
+  height: 550px;
   width: 100%;
 }
 
@@ -84,4 +89,142 @@ a {
   padding: 0.7rem 1.1rem;
   border-radius: 0.4rem;
   margin-top: 1rem;
+  font-family: 'Montserrat', sans-serif;
 }
+
+.page-title button:hover{
+  background-color: #fff;
+}
+
+.content{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.content-why{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  height: 300px;
+  align-items: center;
+}
+
+.content-benefit{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #B9DFE2;
+  max-height: 800px;
+}
+
+.content-benefit h1{
+  text-align: center;
+  margin-top: 200px;
+}
+
+.card h1{
+  margin-top: 50px;
+}
+
+.content h1{
+  font-size: 2rem;
+}
+
+.content p{
+  text-align: center;
+}
+
+.container-border{
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  place-items: center;
+}
+
+.card{
+  padding: 60px 40px;
+  max-width: 375px;
+  background-color: #fff;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  box-shadow: 2px 2px 6px 0px rgba(0, 0, 0, 0.3);
+  max-height: 300px;
+  margin: 25px;
+  text-align: center;
+}
+
+.image {
+  width: 50%;
+}
+
+.image-card{
+  display: block;
+  margin: 0 auto;
+}
+
+.text {
+  margin-bottom: 40px;
+}
+
+.link{
+  padding: 0.7rem 1.1rem;
+  border-radius: 0.4rem;
+  background-color: #FFBF69;
+  font-size: 0.9rem;
+}
+
+.content-howto{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  height: 800px;
+  align-items: center;
+}
+
+.container-column{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  justify-content: center;
+  height: 300px;
+  background-image: url("./assets/bg-grid.png");
+}
+
+.text-side{
+  margin-left: 8rem;
+}
+
+.text-side h1{
+  margin-top: 50px;
+}
+
+.text-side p{
+  text-align: left;
+  width: 35rem;
+}
+
+.image-side img {
+  margin: 15px 10px 5px 150px;
+  width: 20rem;
+}
+
+.footer {
+  display:flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  padding: 30px 30px 20px 30px;
+  width: 100%;
+  color: #fff ;
+  background-color: #2f2f2f;
+}
+
+.legal{
+  display: flex;
+  justify-content: flex-end;
+}
+
+.legal-links{
+  display: flex;
+  align-items: center; 
+}
+  
